@@ -1,7 +1,7 @@
 # TransitProject
 Transit Capital Investment and Commute Mode Choice  This repository contains a reproducible R workflow analyzing how federal transit capital investments influence commute mode choice across 30+ U.S. cities. The project integrates FTA investment data with ACS commute mode data to construct a multi-year panel dataset   
 ## Project Structure
-\\\
+```
 ├── data_raw/                     # Original ACS + FTA datasets (not uploaded)
 │
 ├── data_clean/                   # Cleaned datasets used in analysis
@@ -42,7 +42,7 @@ Transit Capital Investment and Commute Mode Choice  This repository contains a r
 └── docs/
     ├── poster/                   # Research poster and presentation materials
     └── notes/                    # Methodological notes and drafts
-\\\
+```
 
 ## Methods
 - Data cleaning and wrangling using **tidyverse**
